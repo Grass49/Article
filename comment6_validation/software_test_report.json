@@ -1,0 +1,24 @@
+{
+  "status": "software_tests_passed",
+  "tests_passed": 6,
+  "real_onnx_run": false,
+  "real_om_run": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "tests": [
+    "matching outputs and multiplicative scaling",
+    "class flip despite high cosine",
+    "zero/nonfinite/shape checks",
+    "batch padding exclusion",
+    "prepare-run-compare integration with fake runtimes and stale-pair protection",
+    "wrong output byte count rejection"
+  ],
+  "note": "All generated inputs and fake inference were temporary software tests, not research evidence.",
+  "files": {
+    "validate_onnx_om.py": "a7a9951fc48d332776d05d149a44b79c23bb54770cf04568e3b3676368466a85",
+    "test_validation.py": "9228e66401eb05cc174c640f85767893591f109f3639b176ad0af8ece5e8bea3",
+    "README_中文.md": "bbf7bb8ab89bdf6eced61d063d61934c774b725367bbc7edfeffab19bc4d8b1e",
+    "requirements_pc.txt": "e3b5a318bdac78f3b88fbc900f3b2e86ab17ae03e4d65d8c081dee230cfd052d",
+    "requirements_npu.txt": "7750e2693d5fbcb1f19f9ef8bf14c1b51dc93ff06db719f27f4d5876d6875ed3"
+  }
+}
